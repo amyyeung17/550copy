@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "parcel frontend/index.html",
-    "server": "nodemon backend/server.js",
+    "server": "backend/server.js",
     "dev": "concurrently --kill-others \"npm run build\" \"npm run server\""
   },
   "keywords": [],
